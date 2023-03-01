@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="">
       <MovingBar />
-      <div className="p-10 mt-5">
+      <div className="p-8 md:p-10 mt-5">
         <Link
           // className="relative w-20 h-20 "
           href={""}
@@ -29,39 +29,57 @@ export default function Home() {
         </Link>
       </div>
       <div className=" min-h-screen  bg-white grid md:grid-cols-3 ">
-        <div className=" p-10 pt-0 h-full">
+        <div className=" p-8 md:p-10 pt-0 h-full">
           <LandingComponent
             text1={
-              "Zamme is a visual communication platform, with the aim to build community through knowledge-sharing and collaborations. We hosts monthly talks with multi- disciplinary experts, on topics surrounding the field of graphic design, photography, among others."
+              "Zamme is a visual communication platform, with the aim to build community through knowledge-sharing and collaborations. We host monthly talks with multi-disciplinary creatives working in graphic design, creative direction, photography, illustration, among others."
             }
             text2={
-              "Currently we are builing our structure (exciting!!) and website. Folllow us on Instagram to stay tuned and we are looking forward to seeing you soon!!"
+              "Currently we are building our structure (exciting!!) and website. Follow us on Instagram for updates and announcements on upcoming events. We are looking forward to seeing you soon!! 🫰🏼🪷🥸<3"
             }
             text3={
               "For collaborations and inscriptions contact us via e-mail or Instagram!"
             }
-            buttonText={
-              "For collaborations and inscriptions contact us via e-mail or Instagram!"
-            }
+            isOne
+            buttonText={`<p>For collaborations and inquiries contact us via   
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:ciao@zamme.org"
+              className=' hover:italic'
+            > e-mail 
+            </a>or <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/zammeprojects/"
+          >Instagram!</a></p>`}
             color="bg-[rgb(0,0,255)]"
             isFirst
           />
         </div>
 
-        <div className=" p-10 pt-0">
+        <div className=" p-8 md:p-10 pt-0">
           <LandingComponent
             text1={
-              "Zamme es una plataforma de comunicación visual, con el objetivo de construir una comunidad a través del intercambio de conocimientos y colaboraciones. Hacemos platicas mensuales con expertos multidisciplinarios, sobre temas que rodean el campo del diseño gráfico, la fotografía, entre otros."
+              "Zamme es una plataforma de comunicación visual con el objetivo de construir comunidad a través del intercambio de conocimiento y colaboraciones. Hacemos pláticas mensuales con creativxs multidisciplinarios, trabajando en áreas como diseño gráfico, fotografía, ilustración, dirección de arte, entre otros."
             }
             text2={
-              "Actualmente estamos construyendo nuestra nueva estructura (¡¡que emoción!!) y el sitio web. ¡Síguenos en Instagram para mantenerte informadx y esperamos verte pronto!"
+              "Actualmente estamos construyendo nuestra nueva estructura (¡¡que emoción!!) y el sitio web. ¡Síguenos en Instagram para mantenerte informadx de nuestros futuros eventos. ¡Esperamos verte pronto! 🫰🌵🥸<3"
             }
             text3={
-              "Para colaboraciones e inscripciones contactanos vía e-mail o Instagram."
+              "Para colaboraciones e inscripciones contáctanos vía e-mail o Instagram."
             }
-            buttonText={
-              "Para colaboraciones e inscripciones contactanosvía e-mail o instagram."
-            }
+            buttonText={`<p>Para colaboraciones e inscripciones contáctanos vía  <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:ciao@zamme.org"
+              className=' hover:italic'
+            > e-mail 
+            </a> o <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/zammeprojects/"
+          >Instagram.</a></p>`}
             color="bg-[rgb(80,255,7)]"
           />
         </div>

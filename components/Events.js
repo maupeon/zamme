@@ -43,7 +43,7 @@ const events_array = [
       { name: "Liz Zepeda Esquivel", link: "https://lizdesigns.co" },
       { name: "Santiago Martínez", link: "https://www.suave.ooo/shop" },
     ],
-    date: "15. 06.22 (MX)",
+    date: "15.06.22 (MX)",
     title: "Creative direction for magazines",
   },
   {
@@ -56,14 +56,14 @@ const events_array = [
     link: "https://www.emilioerandi.com/",
   },
   {
-    type: "Zamme talk + WEX",
+    type: "Zamme talk + live painting",
     // authors:'María Marín de Buen & Dan Solbach',
     authors: [{ name: "Memo Vithana", link: "https://www.memovithana.com/" }],
     date: "07.08.22 (DE)",
     title: "",
   },
   {
-    type: "Zamme Berlin chit chat with clhub + WEX",
+    type: "Zamme Berlin chit chat with clhub.art + Wex Records",
     // authors:'María Marín de Buen & Dan Solbach',
     // authors: [
     //   { name: "", link: "" },
@@ -91,7 +91,7 @@ export default function Events() {
 
   return (
     <div className=" font-zamme_light">
-      <h1 className=" mb-8">Past events</h1>
+      <h1 className=" mb-8 text-lg">Past events</h1>
       {events_array.map((item, index) => (
         <div className=" mb-8" key={index}>
           <p>{item.type}</p>
