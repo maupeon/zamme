@@ -1,6 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-group {
+    animation-play-state: paused;
+  }
+}
+
+@font-face {
+  font-family: "Oracle-normal";
+  src: local("Oracle-normal"),
+    url(/fonts/Oracle/ABCOracle-Book.otf) format("opentype");
+}
+@font-face {
+  font-family: "Oracle-light";
+  src: local("Oracle-light"),
+    url(/fonts/Oracle/ABCOracleTriple-Book.otf) format("opentype");
+}
+@font-face {
+  font-family: "Oracle-bold";
+  src: local("Oracle-bold"),
+    url(/fonts/Oracle/ABCOracleTriple-Medium.otf) format("opentype");
+}
+
+body {
+  font-family: "Oracle-normal", "Oracle-light", "Oracle-bold";
+}
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -88,15 +114,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
 
 a {
   color: inherit;

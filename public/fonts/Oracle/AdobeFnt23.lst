@@ -1,0 +1,89 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ABCOracle-Book
+FamilyName:ABC Oracle
+StyleName:Book
+MenuName:ABC Oracle Book
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:ABC Oracle Book
+WritingScript:Roman
+OutlineFileName:/Users/soniamalpeso/Dropbox/3_Personal Projects/Zamme Projects/Z01_Creation internal/Website/Landing page/Landing page_V4 Folder/Document fonts/ABCOracle-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:133376
+FileModTime:670868933
+NameArray:0,Mac,4,ABC Oracle Book
+NameArray:0,Win,1,ABC Oracle Book
+NameArray:0,Win,16,ABC Oracle
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ABCOracleTriple-Book
+FamilyName:ABC Oracle Triple
+StyleName:Book
+MenuName:ABC Oracle Triple Book
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:ABC Oracle Triple Book
+WritingScript:Roman
+OutlineFileName:/Users/soniamalpeso/Dropbox/3_Personal Projects/Zamme Projects/Z01_Creation internal/Website/Landing page/Landing page_V4 Folder/Document fonts/ABCOracleTriple-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:86568
+FileModTime:670868942
+NameArray:0,Mac,4,ABC Oracle Triple Book
+NameArray:0,Win,1,ABC Oracle Triple Book
+NameArray:0,Win,16,ABC Oracle Triple
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ABCOracleTriple-Medium
+FamilyName:ABC Oracle Triple
+StyleName:Medium
+MenuName:ABC Oracle Triple Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:ABC Oracle Triple Medium
+WritingScript:Roman
+OutlineFileName:/Users/soniamalpeso/Dropbox/3_Personal Projects/Zamme Projects/Z01_Creation internal/Website/Landing page/Landing page_V4 Folder/Document fonts/ABCOracleTriple-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:89376
+FileModTime:670868942
+NameArray:0,Mac,4,ABC Oracle Triple Medium
+NameArray:0,Win,1,ABC Oracle Triple Medium
+NameArray:0,Win,16,ABC Oracle Triple
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/soniamalpeso/Dropbox/3_Personal Projects/Zamme Projects/Z01_Creation internal/Website/Landing page/Landing page_V4 Folder/Document fonts/AdobeFnt23.lst
+FileLength:2140
+FileModTime:699294980
+%EndFont
+

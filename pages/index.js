@@ -5,13 +5,15 @@ import styles from "@/styles/Home.module.css";
 import LandingComponent from "@/components/LandingComponent";
 import Events from "@/components/Events";
 import Link from "next/link";
+import MovingBar from "@/components/MovingBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className="">
-      <div className="p-10">
+      <MovingBar />
+      <div className="p-10 mt-5">
         <Link
           // className="relative w-20 h-20 "
           href={""}
