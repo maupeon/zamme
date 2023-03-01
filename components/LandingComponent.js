@@ -31,7 +31,7 @@ export default function LandingComponent({
         </p>
       </div>
       {isFirst && (
-        <div className=" mt-10 md:mt-0 md:absolute bottom-0  ">
+        <div className=" mt-10 md:mt-0 md:fixed bottom-10  ">
           <a
             target="_blank"
             rel="noreferrer"
