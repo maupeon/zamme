@@ -63,12 +63,12 @@ const events_array = [
     title: "",
   },
   {
-    type: "Zamme Berlin chit chat with clhub.art + Wex Records",
-    // authors:'María Marín de Buen & Dan Solbach',
-    // authors: [
-    //   { name: "", link: "" },
-    //   { name: "", link: "" },
-    // ],
+    type: "Zamme Berlin",
+    // authors: " + ",
+    authors: [
+      { name: "clhub.art", link: "https://www.clhub.art" },
+      { name: "Wex Records", link: "https://wexrecords.bandcamp.com" },
+    ],
     date: "07.09.22 (DE)",
     title: "",
   },
