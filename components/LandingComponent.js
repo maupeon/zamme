@@ -32,7 +32,7 @@ export default function LandingComponent({
           className="w-full h-full z-10 font-zamme leading-snug font-thin text-xl flex items-center justify-center"
         /> */}
         {isOne ? (
-          <div className="w-full inline-block h-full z-10 font-zamme_light leading-tight font-thin text-xl  items-center justify-center">
+          <div className="w-full inline-block h-full z-10 font-zamme_light leading-tight font-thin text-lg md:text-xl  items-center justify-center">
             For collaborations and inquiries contact us via
             <a
               target="_blank"
@@ -54,7 +54,7 @@ export default function LandingComponent({
             </a>
           </div>
         ) : (
-          <p className="w-full inline-block h-full z-10 font-zamme_light leading-tight  font-thin text-xl  items-center justify-center">
+          <p className="w-full inline-block h-full z-10 font-zamme_light leading-tight  font-thin text-lg md:text-xl  items-center justify-center">
             Para colaboraciones e inscripciones contáctanos vía{" "}
             <a
               target="_blank"
