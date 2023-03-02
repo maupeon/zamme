@@ -34,24 +34,26 @@ export default function LandingComponent({
         {isOne ? (
           <div className="w-full inline-block h-full z-10 font-zamme_light leading-tight font-thin text-lg md:text-xl  items-center justify-center">
             For collaborations and inquiries contact us via
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="mailto:ciao@zamme.org"
-              className=" hover:italic"
-            >
-              {" "}
-              e-mail{" "}
-            </a>
-            or{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className=" hover:italic"
-              href="https://www.instagram.com/zammeprojects/"
-            >
-              Instagram!
-            </a>
+            <div>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:ciao@zamme.org"
+                className=" hover:italic"
+              >
+                {" "}
+                e-mail{" "}
+              </a>
+              or{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className=" hover:italic"
+                href="https://www.instagram.com/zammeprojects/"
+              >
+                Instagram!
+              </a>
+            </div>
           </div>
         ) : (
           <p className="w-full inline-block h-full z-10 font-zamme_light leading-tight  font-thin text-lg md:text-xl  items-center justify-center">
